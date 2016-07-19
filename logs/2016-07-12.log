@@ -1,0 +1,112 @@
+ERROR - 2016-07-12 12:23:10 - exception 'ErrorException' with message 'mysqli_connect(): (28000/1045): Access denied for user 'username1'@'localhost' (using password: YES)' in /var/www/html/App/Controllers/Signup/SignupController.php:20
+Stack trace:
+#0 [internal function]: Yee\Yee::handleErrors(2, 'mysqli_connect(...', '/var/www/html/A...', 20, Array)
+#1 /var/www/html/App/Controllers/Signup/SignupController.php(20): mysqli_connect('localhost', 'username1', '123456', 'secret_spots')
+#2 [internal function]: SignupController->indexAction()
+#3 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#4 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___indexAction', Array)
+#5 [internal function]: SignupController::___indexAction()
+#6 /var/www/html/Yee/Route.php(462): call_user_func_array('SignupControlle...', Array)
+#7 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#8 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#9 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#10 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#11 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#12 /var/www/html/index.php(48): Yee\Yee->execute()
+#13 {main}
+ERROR - 2016-07-12 12:23:40 - exception 'ErrorException' with message 'mysqli_connect(): (28000/1045): Access denied for user 'username1'@'localhost' (using password: YES)' in /var/www/html/App/Controllers/Signup/SignupController.php:20
+Stack trace:
+#0 [internal function]: Yee\Yee::handleErrors(2, 'mysqli_connect(...', '/var/www/html/A...', 20, Array)
+#1 /var/www/html/App/Controllers/Signup/SignupController.php(20): mysqli_connect('localhost', 'username1', '123456', 'secret_spots')
+#2 [internal function]: SignupController->indexAction()
+#3 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#4 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___indexAction', Array)
+#5 [internal function]: SignupController::___indexAction()
+#6 /var/www/html/Yee/Route.php(462): call_user_func_array('SignupControlle...', Array)
+#7 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#8 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#9 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#10 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#11 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#12 /var/www/html/index.php(48): Yee\Yee->execute()
+#13 {main}
+ERROR - 2016-07-12 12:24:09 - exception 'ErrorException' with message 'mysqli_connect(): (28000/1045): Access denied for user 'username1'@'localhost' (using password: YES)' in /var/www/html/App/Controllers/Signup/SignupController.php:20
+Stack trace:
+#0 [internal function]: Yee\Yee::handleErrors(2, 'mysqli_connect(...', '/var/www/html/A...', 20, Array)
+#1 /var/www/html/App/Controllers/Signup/SignupController.php(20): mysqli_connect('localhost', 'username1', '1234567', 'secret_spots')
+#2 [internal function]: SignupController->indexAction()
+#3 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#4 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___indexAction', Array)
+#5 [internal function]: SignupController::___indexAction()
+#6 /var/www/html/Yee/Route.php(462): call_user_func_array('SignupControlle...', Array)
+#7 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#8 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#9 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#10 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#11 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#12 /var/www/html/index.php(48): Yee\Yee->execute()
+#13 {main}
+ERROR - 2016-07-12 12:24:57 - exception 'ErrorException' with message 'mysqli_connect(): (28000/1045): Access denied for user 'username'@'localhost' (using password: YES)' in /var/www/html/App/Controllers/Signup/SignupController.php:20
+Stack trace:
+#0 [internal function]: Yee\Yee::handleErrors(2, 'mysqli_connect(...', '/var/www/html/A...', 20, Array)
+#1 /var/www/html/App/Controllers/Signup/SignupController.php(20): mysqli_connect('127.0.0.1', 'username', '123456', 'secret_spots')
+#2 [internal function]: SignupController->indexAction()
+#3 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#4 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___indexAction', Array)
+#5 [internal function]: SignupController::___indexAction()
+#6 /var/www/html/Yee/Route.php(462): call_user_func_array('SignupControlle...', Array)
+#7 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#8 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#9 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#10 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#11 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#12 /var/www/html/index.php(48): Yee\Yee->execute()
+#13 {main}
+ERROR - 2016-07-12 12:25:31 - exception 'ErrorException' with message 'mysqli_connect(): (28000/1045): Access denied for user 'username'@'localhost' (using password: YES)' in /var/www/html/App/Controllers/Signup/SignupController.php:20
+Stack trace:
+#0 [internal function]: Yee\Yee::handleErrors(2, 'mysqli_connect(...', '/var/www/html/A...', 20, Array)
+#1 /var/www/html/App/Controllers/Signup/SignupController.php(20): mysqli_connect('127.0.0.1', 'username', '123456', 'secret_spots')
+#2 [internal function]: SignupController->indexAction()
+#3 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#4 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___indexAction', Array)
+#5 [internal function]: SignupController::___indexAction()
+#6 /var/www/html/Yee/Route.php(462): call_user_func_array('SignupControlle...', Array)
+#7 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#8 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#9 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#10 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#11 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#12 /var/www/html/index.php(48): Yee\Yee->execute()
+#13 {main}
+ERROR - 2016-07-12 12:26:02 - exception 'ErrorException' with message 'mysqli_connect(): (HY000/2005): Unknown MySQL server host 'localhost/signup' (0)' in /var/www/html/App/Controllers/Signup/SignupController.php:20
+Stack trace:
+#0 [internal function]: Yee\Yee::handleErrors(2, 'mysqli_connect(...', '/var/www/html/A...', 20, Array)
+#1 /var/www/html/App/Controllers/Signup/SignupController.php(20): mysqli_connect('localhost/signu...', 'username', '123456', 'secret_spots')
+#2 [internal function]: SignupController->indexAction()
+#3 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#4 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___indexAction', Array)
+#5 [internal function]: SignupController::___indexAction()
+#6 /var/www/html/Yee/Route.php(462): call_user_func_array('SignupControlle...', Array)
+#7 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#8 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#9 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#10 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#11 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#12 /var/www/html/index.php(48): Yee\Yee->execute()
+#13 {main}
+ERROR - 2016-07-12 12:26:11 - exception 'ErrorException' with message 'mysqli_connect(): (28000/1045): Access denied for user 'username'@'localhost' (using password: YES)' in /var/www/html/App/Controllers/Signup/SignupController.php:20
+Stack trace:
+#0 [internal function]: Yee\Yee::handleErrors(2, 'mysqli_connect(...', '/var/www/html/A...', 20, Array)
+#1 /var/www/html/App/Controllers/Signup/SignupController.php(20): mysqli_connect('localhost', 'username', '123456', 'secret_spots')
+#2 [internal function]: SignupController->indexAction()
+#3 /var/www/html/Yee/Managers/Controller/Controller.php(22): call_user_func_array(Array, Array)
+#4 [internal function]: Yee\Managers\Controller\Controller::__callStatic('___indexAction', Array)
+#5 [internal function]: SignupController::___indexAction()
+#6 /var/www/html/Yee/Route.php(462): call_user_func_array('SignupControlle...', Array)
+#7 /var/www/html/Yee/Yee.php(1333): Yee\Route->dispatch()
+#8 /var/www/html/Yee/Middleware/Flash.php(85): Yee\Yee->call()
+#9 /var/www/html/Yee/Middleware/MethodOverride.php(92): Yee\Middleware\Flash->call()
+#10 /var/www/html/Yee/Middleware/PrettyExceptions.php(67): Yee\Middleware\MethodOverride->call()
+#11 /var/www/html/Yee/Yee.php(1278): Yee\Middleware\PrettyExceptions->call()
+#12 /var/www/html/index.php(48): Yee\Yee->execute()
+#13 {main}
